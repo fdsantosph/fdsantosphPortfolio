@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FD Portfolio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+    <link rel="icon" type="image/png" href="img/fd_logo.png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
+
+    <div id="slides">
+      <div class="overlay"></div>
+
+      <div class="slides-container">
+        <img src="img/slide1.jpg" alt="" />
+        <img src="img/slide2.jpeg" alt="" />
+        <img src="img/slide3.jpeg" alt="" />
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <img src="./img/fd_logo.png" width="150px">
+          <p class="main">FREDERICK DELOS SANTOS</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">Frederick delos Santos</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#contact">Contact</a> -->
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="aboutImage" src="img/about.jpeg" />
+          </div>
+
+          <div class="col-md-7">
+            <h4>ABOUT ME</h4>
+
+            <p>
+              I possess strong working knowledge in Java, Spring  and REST APIs.
+              As a self-taught developer my recent achievement was the completion of 
+              the <a href="http://violation-env.eba-wkbkzc3k.ap-southeast-1.elasticbeanstalk.com/" target="_blank">MayViolationBa</a>
+               App for MMDA. In two (2) months I finished the design, 
+              development and testing of the app, and on the 3rd month, I deployed it 
+              to AWS. I did both the front and back end.  
+            </p>
+
+            <p>
+              (Click here to go to site ->
+              <a href="http://violation-env.eba-wkbkzc3k.ap-southeast-1.elasticbeanstalk.com/" target="_blank">MayViolationBa</a> App).
+            </p>
+
+            <p>
+              I have been coding personal projects for 3+ years now since January 2018.
+              I started with the Back end ( Java, Spring Framework/Boot/ MVC, Hibernate, MySQL ) and then the Front end  ( HTML, CSS ,Javascript, Angular ), likewise other technologies such as Junit, REST API, Git, Github  and finally AWS. 
+
+            </p>
+
+            <p>
+              I was a Wedding Photographer and my work was on weekends. Since I am free on 
+              weekdays, I would practice coding 4-5 hours each day.
+            
+            </p>
+
+            <p>
+              I used to be a COBOL-CICS programmer in a bank and insurance company for a total of 
+              3+ years, with that background it has helped me to easily transition back to programming. 
+
+            </p>
+
+            <p>
+              I   am a  fast  learner,   problem  solver, critical thinker,   resourceful  and  a  team  player.  With  these  abilities  I  could  get the job done. 
+
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <!-- <p>My proficiency in each skill (drag to scroll)</p> -->
+            <p>(swipe left to see more)</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="85">
+                <span class="percent">85</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Java</h4>
+              <p>Used in most of my programming projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="85">
+                <span class="percent">85</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Spring</h4>
+              <p>Used in most of my programming projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="85">
+                <span class="percent">85</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>REST API</h4>
+              <p>Used in most of my programming projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="80">
+                <span class="percent">80</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>MySQL</h4>
+              <p>Database used mostly in my projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="60">
+                <span class="percent">60</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Angular</h4>
+              <p>A new skill I am learning</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">70</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Thymeleaf</h4>
+              <p>Server side templating view for my projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="statsSection section">
+      <div class="container">
+        <div class="row">
+
+          <div class="heading">
+            <h2>CONTACT INFO</h2>
+          </div>
+
+          <div class="col-sm-4">
+            <h5 style="text-align:center"><i class="fas fa-phone"></i> </h5>
+            <h6 style="text-align:center">0917.816.0708</h6>
+            <h6 style="text-align:center">(thru viber pls)</h6>
+          </div>
+
+          <div class="col-sm-4">
+            <h4 style="text-align:center"><i class="far fa-envelope"></i> </h4>
+            <h6 style="text-align:center">fdsantosph@gmail.com</h6>
+          </div>
+
+          <div class="col-sm-4">
+            <h2 style="text-align:center" ><i class="fab fa-github"></i> </h2>
+            <h6 style="text-align:center" ><a href="https://github.com/fdsantosph" target="_blank">https://github.com/fdsantosph</a></h6>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">Like what you see?</p>
+        <h2>I'd love to hear from you!</h2>
+        <a href="mailTo:fdsantosph@gmail.com" class="contactButton"
+          >CLICK HERE TO GET IN TOUCH!</a
+        >
+      </div>
+    </div>
+
+    <div id="portfolio" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>PORTFOLIO</h2>
+          </div>
+
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".apps">MMDA App</a></li>
+              <li><a href="#" data-filter=".me">Projects</a></li>
+            </ul>
+          </div>
+
+          <div class="itemsContainer">
+            <ul class="items">
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/app-1-iphone-thumb-01.png" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/app-1-iphone-large.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="A responsive website with cross-browser compatibility, with Spring Boot on the Back end. Try to input Plate nos. PRO147 and RA1580 for some results "
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="http://violation-env.eba-wkbkzc3k.ap-southeast-1.elasticbeanstalk.com/" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <!-- <li class="resume col-xs-6 col-sm-4 col-md-3 col-lg-3"> -->
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/app_2.png" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/app_2.png"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="A responsive website with cross-browser compatibility, with Spring Boot on the Back end. Try to input Plate nos. PRO147 and CAR5243 for some results"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    
+                    <a href="http://violation-env.eba-wkbkzc3k.ap-southeast-1.elasticbeanstalk.com/" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/app-1-travelA-signIn-thumb.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/app-1-travelA-signIn.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="Travel Agency App, Used Spring Boot,
+                      Spring Framework, Spring MVC, Spring Security,
+                      REST API, Hibernate, Thymeleaf, Bootstrap, MySQL."
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <!--
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    -->
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+
+              <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/app-2-travelA-welcomepage-thumb.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/app-2-travelA-welcomepage.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="Welcome Page with Weather Map API. Used Spring Boot,
+                      Spring Framework, Spring MVC, Spring Security,
+                      REST API, Hibernate, Thymeleaf, Bootstrap, MySQL.
+                      "
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <!--
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    -->
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+
+
+
+              <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/app-3-travelA-list-thumb.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/app-3-travelA-list.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is the list of available tours 
+                      in the Travel Agency App, with CRUD operations.
+                      "
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <!--
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    -->
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+
+              
+              <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/app-5-todo-thumb.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/app-5-todo.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="
+                      Todo App, Full Stack, Angular Front End and Spring as Back End"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <!--
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    -->
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+               
+              <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/app-4-CRM-thumb.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/app-4-CRM.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="CRM - with CRUD Operations. Used Spring Framework/ MVC, Hibernate, MySQL"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <!--
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    -->
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+
+
+
+
+
+               <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/app-8-projectM-thumb.jpg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/app-8-projectM.jpg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="Shows project status bar and 
+                      the number of projects assigned to each employee.
+                      Used Spring Boot, Hibernate,
+                      Thymeleaf, MySQL, HTML,
+                      CSS, Javascript.
+                      "
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <!--
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                    -->
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li> 
+
+              <!-- <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li> -->
+
+              <!-- <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li> -->
+
+              <!-- <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li> -->
+
+              <!-- <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li> -->
+
+              <!-- <li class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li> -->
+
+              <!-- <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li> -->
+
+              <!-- <li class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" />
+
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a
+                      href="http://reecekenney.com"
+                      target="_blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="imageOverlay"></div>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyrightSection">
+      <div class="col-md-12 text-center">
+        <p>&copy; Copyright Frederick delos Santos 2021</p>
+      </div>
+    </div>
+
+    <script src="js/countUp.js"></script>
+    <script src="js/countUp-jquery.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.5/dist/isotope.pkgd.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
